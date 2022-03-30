@@ -1,7 +1,7 @@
 import React from "react";
-import { numberToWords } from "./Calculator";
+import { countVowelsAndConsonants } from "./Calculator";
 
 test("translates numbers to words correctly", () => {
-  //   const twentyTwo = numberToWords(22);
-  //   expect(twentyTwo).toBe("twenty two");
+  //   const result = countVowelsAndConsonants("the quick brown fox jumped over the coding interview");
+  //   expect(result).toBe({vowels: 0, consonants: 0});
 });
