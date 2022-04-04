@@ -13,7 +13,7 @@ function Calculator() {
     <div>
       <form onSubmit={submit}>
         <input name="sentence" type="text" placeholder="type a string"></input>
-        <button type="submit">translate to words</button>
+        <button type="submit">count the vowels and consonants</button>
       </form>
       <div>{result}</div>
     </div>
